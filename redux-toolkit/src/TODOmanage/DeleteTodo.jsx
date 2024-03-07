@@ -12,8 +12,8 @@ function DeleteTodo() {
     <>
       <ul className=" list-none ml-2">
         {todos.map((todo, id) => (
-          <li key={id} class="text-yellow-600 font-medium border-b border-gray-200 flex items-center justify-between py-4">{todo} 
-            <MdOutlineDeleteForever onClick={deletesingle} class="text-yellow-100 size-5 ml-10 mt-1"/>
+          <li key={id} className="text-yellow-600 font-medium border-b border-gray-200 flex items-center justify-between py-4">{todo} 
+            <MdOutlineDeleteForever onClick={deletesingle} className="text-yellow-100 size-5 ml-10 mt-1"/>
           </li>
         ))}
       </ul>

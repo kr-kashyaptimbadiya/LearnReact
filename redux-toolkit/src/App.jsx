@@ -3,7 +3,7 @@ import Tododetails from "./TODOmanage/Tododetails";
 
 function App() {
   return (
-    <div class="bg-black h-screen grid place-content-center">
+    <div className="bg-black h-screen grid place-content-center">
       <Tododetails />
     </div>
   );

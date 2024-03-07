@@ -18,16 +18,16 @@ function AddTodo() {
 
   return (
     <>
-      <div class="font-semibold text-yellow-600 text-center text-5xl font-serif mb-5">Todo List</div>
+      <div className="font-semibold text-yellow-600 text-center text-5xl font-serif mb-5">Todo List</div>
       <form onSubmit={(e) => addTododetails(e)}>
         <input
           type="text"
           value={input}
           placeholder="   Add your Todo Task Here..."
-          class = "h-8 w-[250px] md:w-[400px]  bg-transparent border border-yellow-100 text-yellow-100"
+          className = "h-8 w-[250px] md:w-[400px]  bg-transparent border border-yellow-100 text-yellow-100"
           onChange={(e) => setInput(e.target.value)}
         />
-        <button type="submit" class = "bg-yellow-600 ml-2 rounded-sm p-1 hover:text-white">Add todo</button>
+        <button type="submit" className = "bg-yellow-600 ml-2 rounded-sm p-1 hover:text-white">Add todo</button>
       </form>
     </>
   );

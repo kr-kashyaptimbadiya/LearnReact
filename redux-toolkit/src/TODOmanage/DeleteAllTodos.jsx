@@ -10,7 +10,7 @@ function DeleteAllTodos() {
 
   return (
     <div>
-      <button onClick={deleteall} class = "bg-yellow-600 rounded-sm mt-4 p-1 pr-7 pl-7 md:ml-[370px] ml-[218px] hover:text-white">Clear All</button>
+      <button onClick={deleteall} className = "bg-yellow-600 rounded-sm mt-4 p-1 pr-7 pl-7 md:ml-[370px] ml-[218px] hover:text-white">Clear All</button>
     </div>
   );
 }
